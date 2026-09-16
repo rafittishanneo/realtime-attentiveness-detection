@@ -98,11 +98,12 @@ Model performance (accuracy, precision/recall, AUC-ROC, and feature importance) 
 
 ## 📄 Citation
 
+Pending...
 If you use this work in your research, please cite this repository (citation details / paper reference to be added upon publication).
 
 ## 📜 License
 
-*(Add a license — e.g. MIT — before making the repository public, if you intend to allow reuse.)*
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## 🙏 Acknowledgements
 
