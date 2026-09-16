@@ -1,0 +1,68 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ── Virtual environments ─────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.conda/
+
+# ── Jupyter / Colab ───────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ── Model weights & large binaries (Git LFS or releases) ──
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.task
+*.tflite
+*.onnx
+*.pt
+*.pth
+checkpoints/
+weights/
+
+# ── Data ──────────────────────────────────────────────────
+data/
+dataset/
+ICCA/
+*.csv
+*.zip
+*.tar.gz
+
+# ── Outputs / logs ────────────────────────────────────────
+outputs/
+logs/
+runs/
+*.log
+results/
+figures/*.png
+!docs/assets/*.png
+
+# ── OS / Editor ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ── Environment / secrets ─────────────────────────────────
+.env
+.env.*
+*.key
+
+# ── Google Colab / Drive mount artifacts ─────────────────
+drive/
+sample_data/
